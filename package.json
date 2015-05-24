@@ -1,0 +1,36 @@
+{
+  "name": "Syd-Keystone",
+  "version": "1.0.0",
+  "description": "web cms app abased on keystonejs",
+  "private": true,
+  "main": "keystone.js",
+  "scripts": {
+    "start": "web.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yhptony/Syd-Keystone.git"
+  },
+  "keywords": [
+    "keystonejs",
+    "node.js",
+    "expressjs",
+    "mongondb",
+    "mongoose",
+    "jade"
+  ],
+  "author": "tonny yan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yhptony/Syd-Keystone/issues"
+  },
+  "homepage": "https://github.com/yhptony/Syd-Keystone",
+  "engines": {
+    "node": "0.12.x",
+    "npm": "2.5.x"
+  },
+  "dependencies": {
+    "keystone": "^0.3.10",
+    "underscore": "^1.8.3"
+  }
+}
