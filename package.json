@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "web cms app abased on keystonejs",
   "private": true,
-  "main": "keystone.js",
+  "main": "server.js",
   "scripts": {
-    "start": "web.js"
+    "start": "server.js"
   },
   "repository": {
     "type": "git",
