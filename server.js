@@ -1,5 +1,6 @@
 var keystone = require('keystone');
 
+//main keystone settings
 keystone.init({
     'name': 'Syd-Keystone',
 
@@ -11,18 +12,18 @@ keystone.init({
     'view engine': 'jade',
 
     'auto update': true,
-    'mongo': 'mongodb://localhost/Syd-Keystone',
+    'mongo': 'mongodb://localhost:27017/Syd-Keystone',
 
     'session': true,
     'auth': true,
     'user model': 'User',
-    'cookie secret': '(your secret here)'
+    'cookie secret': 'kqh*lcP^rH&3XWQczHB~ZTqp91t~SPkV@?HCF>c|P(b2vGl$C)&1<@[38<{$MCo2'
 });
 
-//todo
+//database settings
 require('./models');
 
-//import expressjs router
+//routing settings
 keystone.set('routes', require('./routes'));
 
 keystone.start();
