@@ -30,6 +30,7 @@
     "npm": "2.5.x"
   },
   "dependencies": {
+    "express": "^4.12.4",
     "keystone": "^0.3.10",
     "underscore": "^1.8.3"
   }

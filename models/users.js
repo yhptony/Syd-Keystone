@@ -1,7 +1,7 @@
 'use strict';
 
-var keystone = require('keystone'),
-    Types = keystone.Field.Types;
+var keystone = require('keystone');
+var Types = keystone.Field.Types;
 
 //schema
 var User = new keystone.List('User');

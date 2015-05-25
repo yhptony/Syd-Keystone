@@ -21,7 +21,7 @@ keystone.init({
 });
 
 //database settings
-require('./models');
+keystone.import('models');
 
 //routing settings
 keystone.set('routes', require('./routes'));
